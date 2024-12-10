@@ -88,45 +88,6 @@ nav ul li a:hover {
 
 /* fim card para teste */
 
-/* footer */
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-.contact-info {
-    margin-bottom: 20px;
-}
-
-.contact-info a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
-}
-
-.copyright {
-    margin-top: 20px;
-}
-
-.github-links a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-.github-links a:hover {
-    text-decoration: underline;
-}
-
-/* fim footer */
-
 /* carrossel */
 
 .slider{
@@ -231,3 +192,43 @@ footer {
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background-color: #fff;
 }
+/* fim do carrossel */
+
+/* footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+.github-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.github-links a:hover {
+    text-decoration: underline;
+}
+
+/* fim footer */
