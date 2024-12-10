@@ -204,7 +204,9 @@ nav ul li a:hover {
 /* fim do carrossel */
 
 /* Card dos animais */
-
+.img-card{
+    width: 100px;
+}
 .custom-div {
     margin: 15px; 
     padding: 1.25rem 2.5rem; 
