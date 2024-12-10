@@ -24,7 +24,7 @@ header {
 }
 
 .logo {
-    width: 50px;
+    width: 60px;
 }
 
 nav ul {
@@ -92,15 +92,15 @@ nav ul li a:hover {
 
 .slider{
     margin: 0 auto;
-    width: 700px;
-    height: 400px;
+    width: 90%;
+    height: 200px;
     overflow: hidden;
     padding: 15px;
 }
 
 .slides{
     width: 400%;
-    height: 400px;
+    height: 220px;
     display: flex;
 }
 
@@ -113,13 +113,17 @@ nav ul li a:hover {
     transition: 2s;
 }
 
-.slide img{
-    width: 800px;
+.img1{
+    width: 100%;
+}
+.img2{
+    width: 500px;
+    
 }
 
 .manual-navigation{
     position: absolute;
-    width: 800px;
+    width: 90%;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -138,7 +142,7 @@ nav ul li a:hover {
 }
 
 .manual-btn:hover{
-    background-color: #fff;
+    background-color: #fc9a1a;
 }
 
 #radio1:checked ~ .s1{
@@ -167,8 +171,8 @@ nav ul li a:hover {
 
 .navigation-auto{
     position: absolute;
-    width: 800px;
-    margin-top: 360px;
+    width: 90%;
+    margin-top: 180px;
     display: flex;
     justify-content: center;
 }
@@ -178,19 +182,19 @@ nav ul li a:hover {
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
-    background-color: #fff;
+    background-color: #fc8907;
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2{
-    background-color: #fff;
+    background-color: #fc8907;
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
-    background-color: #fff;
+    background-color: #fc8907;
 }
 
 #radio4:checked ~ .navigation-auto .auto-btn4{
-    background-color: #fff;
+    background-color: #fc8907;
 }
 /* fim do carrossel */
 
