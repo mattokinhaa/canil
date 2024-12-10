@@ -203,6 +203,44 @@ nav ul li a:hover {
 }
 /* fim do carrossel */
 
+/* nao sei oq eh isso */
+.styled-path {
+    stroke: none;
+    stroke-width: 1;
+    stroke-dasharray: none;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke-miterlimit: 10;
+    fill: rgb(127, 178, 65);
+    fill-rule: nonzero;
+    opacity: 1;
+}
+
+.styled-path2 {
+    stroke: none;
+    stroke-width: 1;
+    stroke-dasharray: none;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke-miterlimit: 10;
+    fill: rgb(160, 126, 99);
+    fill-rule: nonzero;
+    opacity: 1;
+}
+
+.no-stroke {
+    stroke: none;
+    stroke-width: 0;
+    stroke-dasharray: none;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke-miterlimit: 10;
+    fill: none;
+    fill-rule: nonzero;
+    opacity: 1;
+}
+/* fim nao sei oq eh isso */
+
 /* Card dos animais */
 .img-card{
     width: 100px;
