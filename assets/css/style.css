@@ -19,12 +19,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #fac85b;
     color: #fff;
 }
 
 .logo {
-    width: 60px;
+    width: 80px;
 }
 
 nav ul {
@@ -227,7 +227,7 @@ nav ul li a:hover {
     content: '';
     position: absolute;
     height: 100%; 
-    background-color: #abd373; 
+    background-color: #fac85b; 
     z-index: -20; 
     width: 100%; 
     inset: 0; 
