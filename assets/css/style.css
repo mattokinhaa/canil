@@ -117,8 +117,13 @@ nav ul li a:hover {
     width: 100%;
 }
 .img2{
-    width: 500px;
-    
+    width: 120%;
+}
+.img3{
+    width: 100%;
+}
+.img4{
+    width: 100%;
 }
 
 .manual-navigation{
