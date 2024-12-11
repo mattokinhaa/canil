@@ -338,45 +338,6 @@ nav ul li a:hover {
   
 /* Fim do card dos animais */
 
-/* footer */
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-.contact-info {
-    margin-bottom: 20px;
-}
-
-.contact-info a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
-}
-
-.copyright {
-    margin-top: 20px;
-}
-
-.github-links a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-.github-links a:hover {
-    text-decoration: underline;
-}
-
-/* Fim footer */
-
 /* Começo do Popup */
 
 .popup {
@@ -400,8 +361,8 @@ footer {
     background-color: #fac85b;
     padding: 20px;
     border-radius: 15px;
-    width: 1300px;
-    height: 800px;
+    width: 800px;
+    height: 500px;
     text-align: center;
 }
 
@@ -493,3 +454,41 @@ footer {
     .img-button{
         width: 400px;
     }
+/* footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+.github-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.github-links a:hover {
+    text-decoration: underline;
+}
+
+/* Fim footer */
