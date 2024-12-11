@@ -378,7 +378,7 @@ nav ul li a:hover {
 
   /* Fim do Popup */
 
-  /* The Main Switch */
+  /* conteudo popup */
   
   .card_content {
     display: flex;
@@ -388,10 +388,11 @@ nav ul li a:hover {
   
   .button button{
     padding: 0.8em;
-    width: 400px;
+    width: 200px;
+    height: 60px;
     border-radius: 20px;
     font-family: Montserrat;
-    font-size: 1.8em;
+    font-size: 1.2rem;
     align-self: center;
     outline: none;
     font-weight: bold;
@@ -452,7 +453,7 @@ nav ul li a:hover {
 }
 
     .img-button{
-        width: 400px;
+        width: 200px;
     }
 /* footer */
 
