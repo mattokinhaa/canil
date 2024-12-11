@@ -356,6 +356,8 @@ nav ul li a:hover {
 
 .popup.active {
     display: flex; /* Torna o pop-up visível quando a classe 'active' é adicionada */
+    align-items: center;
+    justify-content: center;
 }
 
 .popup-content {

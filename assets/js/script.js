@@ -17,6 +17,6 @@ function nextImage() {
 var modal = document.getElementById("popup");
 var btn = document.getElementById("open-popup");
 var span = document.getElementById("closeModalBtn");
-btn.onclick = function () { modal.style.display = "block"; }
+btn.onclick = function () { modal.style.display = "flex"; }
 span.onclick = function () { modal.style.display = "none"; }
 window.onclick = function (event) { if (event.target == modal) { modal.style.display = "none"; } }
