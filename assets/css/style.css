@@ -203,7 +203,7 @@ nav ul li a:hover {
     background-color: #0056b3;
 }
 
-/* Fim card para teste */
+/* Fim card para teste */   
 
 /* Card dos animais */
 
@@ -272,7 +272,7 @@ nav ul li a:hover {
   
   .card-txt {
     font-weight: 600; 
-    color: #4a4a4a; 
+    color: #000000; 
     letter-spacing: 0.05em; 
     font-size: 1.25rem;
     transition: color 0.3s ease;
