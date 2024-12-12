@@ -5,7 +5,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     padding: 0;
-    justify-items: center;   
+    justify-items: center;  
 }
 
 main {
@@ -48,47 +48,9 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* fim header */
+/* Fim header */
 
-/* card para teste */
-
-.card {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    margin: auto;
-}
-
-.card h2 {
-    margin-top: 0;
-    color: #333;
-}
-
-.card p {
-    color: #666;
-}
-
-.card a {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
-}
-
-.card a:hover {
-    background-color: #0056b3;
-}
-
-/* fim card para teste */
-
-/* carrossel */
+/* Carrossel */
 
 .slider{
     margin: 0 auto;
@@ -114,7 +76,7 @@ nav ul li a:hover {
 }
 
 .img1{
-    width: 100%;
+    width: 200%;
 }
 .img2{
     width: 120%;
@@ -201,47 +163,50 @@ nav ul li a:hover {
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background-color: #fc8907;
 }
-/* fim do carrossel */
 
-/* nao sei oq eh isso */
-.styled-path {
-    stroke: none;
-    stroke-width: 1;
-    stroke-dasharray: none;
-    stroke-linecap: butt;
-    stroke-linejoin: miter;
-    stroke-miterlimit: 10;
-    fill: rgb(127, 178, 65);
-    fill-rule: nonzero;
-    opacity: 1;
+/* Fim do carrossel */
+
+/* Card para teste */
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 250px;
+    height: 130px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
 }
 
-.styled-path2 {
-    stroke: none;
-    stroke-width: 1;
-    stroke-dasharray: none;
-    stroke-linecap: butt;
-    stroke-linejoin: miter;
-    stroke-miterlimit: 10;
-    fill: rgb(160, 126, 99);
-    fill-rule: nonzero;
-    opacity: 1;
+.card h2 {
+    margin-top: 0;
+    color: #333;
 }
 
-.no-stroke {
-    stroke: none;
-    stroke-width: 0;
-    stroke-dasharray: none;
-    stroke-linecap: butt;
-    stroke-linejoin: miter;
-    stroke-miterlimit: 10;
-    fill: none;
-    fill-rule: nonzero;
-    opacity: 1;
+.card p {
+    color: #666;
 }
-/* fim nao sei oq eh isso */
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.card a:hover {
+    background-color: #0056b3;
+}
+
+/* Fim card para teste */   
 
 /* Card dos animais */
+
 .img-card{
     width: 100px;
 }
@@ -307,7 +272,7 @@ nav ul li a:hover {
   
   .card-txt {
     font-weight: 600; 
-    color: #e5e5e5; 
+    color: #000000; 
     letter-spacing: 0.05em; 
     font-size: 1.25rem;
     transition: color 0.3s ease;
@@ -337,11 +302,11 @@ nav ul li a:hover {
     opacity: 1; 
   }
   
-  .btun4 {
-    display: inline-flex; 
+  .btun4 button{
+    display: flex-end; 
     align-items: center; 
     gap: 0.75rem; 
-    background-color: #ec7e0a; 
+    background-color: #e69011; 
     box-shadow: 10px 10px 150px #ff9f0d; 
     cursor: pointer; 
     padding: 0.5rem 1rem; 
@@ -354,9 +319,145 @@ nav ul li a:hover {
   .btun4:hover {
     background-color: rgba(255, 255, 255, 0.1);
   }
-  
-  /* Fim do card dos animais */
 
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+
+.grid-container-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+  
+/* Fim do card dos animais */
+
+/* Começo do Popup */
+
+.popup {
+    display: none; /* Inicialmente, o pop-up está oculto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    transition: top 0ms ease-in-out;
+}
+
+.popup.active {
+    display: flex; /* Torna o pop-up visível quando a classe 'active' é adicionada */
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-content {
+    background-color: #ffe176;
+    padding: 20px;
+    border-radius: 15px;
+    width: 800px;
+    height: 500px;
+    text-align: center;
+}
+
+.controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popup, .popup-content {
+    transition: opacity 0.3s ease;
+}
+
+  /* Fim do Popup */
+
+  /* conteudo popup */
+  
+  .card_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button button{
+    padding: 0.8em;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    align-self: center;
+    outline: none;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #fad179;
+    color: rgb(255, 255, 255);
+    transition: .4s ease-in-out;
+  }
+  
+  .button button::before {
+    content: "∞";
+    font-size: 3.5em;
+    position: absolute;
+    opacity: 0;
+    left: 1.6em;
+    top: -0.36em;
+    transition: .4s ease-in-out;
+  }
+  
+    .button button:hover {
+    cursor: pointer;
+    color: black;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+   .button button:hover::after {
+    position: relative;
+    opacity: 1;
+    font-size: 0.7em;
+  }
+  
+  @keyframes AnimationName {
+    0% {
+      background-position: 0% 50%
+    }
+  
+    50% {
+      background-position: 100% 50%
+    }
+  
+    100% {
+      background-position: 0% 50%
+    }
+  }
+
+  .grid-container-button {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+    .img-button{
+        width: 200px;
+    }
 /* footer */
 
 footer {
@@ -394,4 +495,4 @@ footer {
     text-decoration: underline;
 }
 
-/* fim footer */
+/* Fim footer */

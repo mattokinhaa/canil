@@ -4,11 +4,70 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Pet Finder</title>
+    <title>Cãonil</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <style>
+        .styled-path {
+            stroke: none;
+            /* Sem contorno */
+            stroke-width: 1;
+            /* Largura da linha de contorno (se aplicada) */
+            stroke-dasharray: none;
+            /* Linha contínua */
+            stroke-linecap: butt;
+            /* Extremidades retas */
+            stroke-linejoin: miter;
+            /* Junção pontiaguda */
+            stroke-miterlimit: 10;
+            /* Limite de comprimento das junções */
+            fill: rgb(127, 178, 65);
+            /* Preenchimento verde */
+            fill-rule: nonzero;
+            /* Regra de preenchimento */
+            opacity: 1;
+            /* Totalmente opaco */
+        }
+
+        .styled-path2 {
+            stroke: none;
+            /* Sem contorno */
+            stroke-width: 1;
+            /* Largura do contorno (não visível, pois stroke é none) */
+            stroke-dasharray: none;
+            /* Linha contínua */
+            stroke-linecap: butt;
+            /* Extremidades retas */
+            stroke-linejoin: miter;
+            /* Junção pontiaguda */
+            stroke-miterlimit: 10;
+            /* Limite de miter */
+            fill: rgb(160, 126, 99);
+            /* Preenchimento marrom */
+            fill-rule: nonzero;
+            /* Regra de preenchimento */
+            opacity: 1;
+            /* Totalmente opaco */
+        }
+
+        .no-stroke {
+            stroke: none;
+            stroke-width: 0;
+            stroke-dasharray: none;
+            stroke-linecap: butt;
+            stroke-linejoin: miter;
+            stroke-miterlimit: 10;
+            fill: none;
+            fill-rule: nonzero;
+            opacity: 1;
+        }
+    </style>
+
+</head>
+
 <body>
+
     <header>
         <img class="logo" src="assets/img/logo.png" alt="logo do site">
         <nav>
@@ -20,6 +79,7 @@
             </ul>
         </nav>
     </header>
+
     <!-- começo do slider do começo da pagina -->
     <div class="slider">
         <div class="slides">
@@ -60,32 +120,130 @@
         </div>
     </div>
     <!-- fim do slider  -->
-    <div class="custom-div">
-        <img class="img-card" src="assets/img/icone.jpg" alt="">
 
-        <!-- Card Title -->
-        <p class="card-txt">
-            Calathea Orbifolia
-        </p>
+    <!-- Card dos serviços  -->
+    <div class="grid-container-card">
+        <div class="card">
+            <h2>Adotar</h2>
+            <p>Nosso site ajuda a localizar animais perdidos e redirecioná-los para uma ONG ou canil próximo.</p>
+        </div>
 
-        <!-- Blueberry Description -->
-        <p class="blueberry">
-            One of Kind &amp; Unique Plants Collection Here at SMKY.
-        </p>
+        <div class="card">
+            <h2>Comprar</h2>
+            <p>Veja os produtos que temos </p>
+        </div>
 
-        <!-- Order Now Section -->
-        <div class="ordernow">
-            <p class="btun4">
-                Order Now
+        <div class="card">
+            <h2>Animais Perdidos</h2>
+            <p>Nosso site ajuda a localizar animais perdidos e redirecioná-los para uma ONG ou canil próximo.</p>
+        </div>
+
+        <div class="card">
+            <h2>Denunciar Maus Tratos</h2>
+            <p>Nosso site ajuda a localizar animais perdidos e redirecioná-los para uma ONG ou canil próximo.</p>
+        </div>
+    </div>
+    <!-- Fim do card dos serviços  -->
+
+    <!-- Card dos animais  -->
+    <div class="grid-container">
+        <div class="custom-div">
+            <img class="img-card" src="assets/img/icone.jpg" alt="">
+            <!-- Card Title -->
+            <p class="card-txt">
+                Titã
             </p>
+            <!-- Blueberry Description -->
+            <p class="blueberry">
+                Docil e energético, ideal para pessoas que querem companhia.
+            </p>
+            <!-- Order Now Section -->
+            <div class="ordernow">
+                <p class="btun4">
+                    Order Now
+                </p>
+            </div>
+        </div>
+
+        <div class="custom-div">
+            <img class="img-card" src="assets/img/icone.jpg" alt="">
+            <!-- Card Title -->
+            <p class="card-txt">
+                Tob
+            </p>
+            <!-- Blueberry Description -->
+            <p class="blueberry">
+                Seu novo parceiro para a vida toda, Tob está te esperando.
+            </p>
+            <!-- Order Now Section -->
+            <div class="ordernow">
+                <p class="btun4">
+                    Order Now
+                </p>
+            </div>
+        </div>
+
+        <div class="custom-div">
+            <img class="img-card" src="assets/img/icone.jpg" alt="">
+            <!-- Card Title -->
+            <p class="card-txt">
+                Moranginho
+            </p>
+            <!-- Blueberry Description -->
+            <p class="blueberry">
+                Esperta e calma, adora brincar e conhecer truques novos.
+            </p>
+            <!-- Order Now Section -->
+            <div class="ordernow">
+                <p class="btun4">
+                    Order Now
+                </p>
+            </div>
+        </div>
+
+        <div class="custom-div">
+            <img class="img-card" src="assets/img/icone.jpg" alt="">
+            <!-- Card Title -->
+            <p class="card-txt">
+                Carlos
+            </p>
+            <!-- Blueberry Description -->
+            <p class="blueberry">
+                tob tob tob tob tob tob tob tob tob tob tob tob tob tob
+            </p>
+            <!-- Order Now Section -->
+            <div class="ordernow">
+                <p class="btun4">
+                    <button id="open-popup">Ver mais</button>
+                <div class="popup" id="popup">
+                    <div class="overlay">
+                        <div class="popup-content">
+                            <div class="button">
+                                <button>Nome: Carlos</button>
+                                <img class="img-button" src="assets/img/icone.jpg" alt="">
+                                <div class="grid-container-button">
+                                    <button>Nome: Carlos</button>
+                                    <button>Nome: Carlos</button>
+                                    <button>Nome: Carlos</button>
+                                    <button>Nome: Carlos</button>
+                                </div>
+                                <button>Nome: Carlos</button>
+                            </div>
+                            <div class="controls">
+                                <span id="closeModalBtn">&times;</span>
+                                <button class="submit-btn">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Não esta faltando div!!!! -->
+                </div>
+                </p>
+            </div>
         </div>
     </div>
 
+    <!-- Fim do card dos animais  -->
 
-    <div class="card">
-        <h2>Serviços</h2>
-        <p>Nosso site ajuda a localizar animais perdidos e redirecioná-los para uma ONG ou canil próximo.</p>
-    </div>
 
     <footer id="contato">
         <div class="contact-info">
