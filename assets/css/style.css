@@ -177,7 +177,7 @@ nav ul li a:hover {
     overflow: hidden;
 }
 
-.carousel {
+.carousel-card {
     display: flex;
     transition: transform 0.5s ease;
 }
@@ -203,11 +203,11 @@ nav ul li a:hover {
     z-index: 1;
 }
 
-.arrow-left {
+.card-arrow-left {
     left: 0;
 }
 
-.arrow-right {
+.card-arrow-right {
     right: 0;
 }
 
