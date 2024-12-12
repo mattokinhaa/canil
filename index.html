@@ -18,7 +18,7 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Sobre</a></li>
-                <li><a href="#">Serviços</a></li>
+                <li><a href="#services">Serviços</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
@@ -66,26 +66,25 @@
     <!-- fim do slider  -->
 
     <!-- Card dos serviços  -->
-    <div class="grid-container-card">
-        <div class="card">
-            <h2>Adotar</h2>
-            <p>Nosso site ajuda a localizar animais perdidos e redirecioná-los para uma ONG ou canil próximo.</p>
-        </div>
-
-        <div class="card">
-            <h2>Comprar</h2>
-            <p>Veja os produtos que temos </p>
-        </div>
-
-        <div class="card">
-            <h2>Animais Perdidos</h2>
-            <p>Nosso site ajuda a localizar animais perdidos e redirecioná-los para uma ONG ou canil próximo.</p>
-        </div>
-
-        <div class="card">
-            <h2>Denunciar Maus Tratos</h2>
-            <p>Nosso site ajuda a localizar animais perdidos e redirecioná-los para uma ONG ou canil próximo.</p>
-        </div>
+    <div id="services"> <button class="arrow arrow-left" onclick="moveCarousel(-1)">&#10094;</button>
+        <div class="carousel" id="carousel">
+            <div class="card">
+                <h2>Adotar</h2>
+                <p>Nosso site ajuda a localizar animais perdidos e redirecioná-los para uma ONG ou canil próximo.</p>
+            </div>
+            <div class="card">
+                <h2>Comprar</h2>
+                <p>Veja os produtos que temos.</p>
+            </div>
+            <div class="card">
+                <h2>Animais Perdidos</h2>
+                <p>Nosso site ajuda a localizar animais perdidos e redirecioná-los para uma ONG ou canil próximo.</p>
+            </div>
+            <div class="card">
+                <h2>Denunciar Maus Tratos</h2>
+                <p>Nosso site ajuda a localizar animais perdidos e redirecioná-los para uma ONG ou canil próximo.</p>
+            </div>
+        </div> <button class="arrow arrow-right" onclick="moveCarousel(1)">&#10095;</button>
     </div>
     <!-- Fim do card dos serviços  -->
 
