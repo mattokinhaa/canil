@@ -342,30 +342,12 @@ nav ul li a:hover {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.3s ease;
 }
 
 .custom-div:hover .ordernow {
     opacity: 1;
-}
-
-.btun4 button {
-    display: flex-end;
-    align-items: center;
-    gap: 0.75rem;
-    background-color: #e69011;
-    box-shadow: 10px 10px 150px #ff9f0d;
-    cursor: pointer;
-    padding: 0.5rem 1rem;
-    font-size: 0.875rem;
-    font-weight: 600;
-    border-radius: 9999px;
-    transition: background-color 0.3s ease;
-}
-
-.btun4:hover {
-    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .grid-container {
@@ -544,8 +526,10 @@ footer {
 .card-5 {
     max-width: 320px;
     border-radius: 1rem;
-    background-color: rgba(31, 41, 55, 1);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
     padding: 1rem;
+    margin-top: 2%;
   }
   
   .infos {
@@ -557,9 +541,8 @@ footer {
   }
   
   .image {
-    height: 17rem;
-    width: 16rem;
-    border-radius: 0.5rem;
+    max-width: 16rem;
+    max-height: 17rem;
   }
 
   .image img{
@@ -580,7 +563,7 @@ footer {
     font-size: 1.55rem;
     line-height: 1.75rem;
     font-weight: 500;
-    color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0);
   }
   
   .function {
@@ -615,7 +598,6 @@ footer {
   }
   
   .request {
-    margin-top: 1   0px;
     width: 100%;
     border: 1px solid transparent;
     border-radius: 0.5rem;
@@ -626,7 +608,8 @@ footer {
   }
   
   .request:hover {
-    background-color: rgb(118, 36, 194);
+    background-color: #ffe176;
     color: #fff;
+    font-size: 1.20rem;
   }
   
