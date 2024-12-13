@@ -387,8 +387,8 @@ nav ul li a:hover {
     background-color: #ffe176;
     padding: 20px;
     border-radius: 15px;
-    width: 800px;
-    height: 500px;
+    width: 1000px;
+    height: 600px;
     text-align: center;
 }
 
@@ -613,3 +613,15 @@ footer {
     font-size: 1.20rem;
   }
   
+  .into-card img{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 17rem;
+    width: 16rem;
+    border-radius: 0.5rem;
+  }
+
+  iframe{
+    margin: 15px;
+  }
