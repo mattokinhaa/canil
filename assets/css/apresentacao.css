@@ -60,10 +60,37 @@
           text-align: center;
       }
   }
-  footer{
-      padding: 30px;
-      background-color: #ff6f17;
-      justify-content: center;
-      text-align: center;
-      color: #ffffff;
-  }
+  footer {
+    background-color: #ff6f17;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+.github-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.github-links a:hover {
+    text-decoration: underline;
+}
