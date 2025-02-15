@@ -60,6 +60,8 @@
           text-align: center;
       }
   }
+  
+  /* começo do footer */
   footer {
     background-color: #ff6f17;
     color: #fff;
@@ -94,6 +96,4 @@
 .github-links a:hover {
     text-decoration: underline;
 }
-.descricao{
-    padding: 200px;
-}
+/* fim d footer */
