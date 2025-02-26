@@ -50,6 +50,7 @@ nav ul li a:hover {
 
 /* Fim header */
 
+
 /* Carrossel */
 
 .slider{
@@ -61,7 +62,7 @@ nav ul li a:hover {
 }
 
 .slides{
-    width: 400%;
+    width: 343%;
     height: 220px;
     display: flex;
 }
@@ -76,16 +77,16 @@ nav ul li a:hover {
 }
 
 .img1{
-    width: 200%;
+    width: 1200px;
 }
 .img2{
-    width: 120%;
+    width: 1200px;
 }
 .img3{
-    width: 100%;
+    width: 1200px;
 }
 .img4{
-    width: 100%;
+    width: 1200px;
 }
 
 .manual-navigation{
@@ -165,7 +166,6 @@ nav ul li a:hover {
 }
 
 /* Fim do carrossel */
-
 /* Card para teste */
 
 .card {
@@ -620,8 +620,8 @@ nav ul li a:hover {
 
   /* footer */
 
-footer {
-    background-color: #333;
+  footer {
+    background-color: #ff6f17;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -644,15 +644,4 @@ footer {
 .copyright {
     margin-top: 20px;
 }
-
-.github-links a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-.github-links a:hover {
-    text-decoration: underline;
-}
-
-/* Fim footer */
+/* fim d footer */
