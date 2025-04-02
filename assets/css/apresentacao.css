@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,500;1,500&display=swap');
 * {padding: 0;
     margin: 0;
-    font-family: 'Arial';
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;;
     box-sizing: border-box;
   }
   body{
@@ -40,14 +44,14 @@
       width: 80%;
   }
   section div.box img{
-      width: 200px;
+      width: 400px;
   }
   section div.box p{
       color: #ffffff;
       font-size: 100%;
       line-height: 32px;
       text-align: justify;
-      text-shadow: 3px 1px #813e00;
+      text-shadow: 3px 1px #4b2400;
       margin-top: 30px;
   }
   @media screen and (max-width:1024px){
