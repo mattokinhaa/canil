@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,500;1,500&display=swap');
+* {padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;;
+    box-sizing: border-box;
+  }
+  body{
+      width: 100%;
+      min-height: 100vh;
+  }
+  /* começo do video */
+  section{
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      overflow-y: hidden;
+  }
+  section div.background-section{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 0;
+  }
+  section div.background-section video{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+  }
+  section div.box{
+      width: 50%;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.2), transparent);
+  }
+  section div.box div.conteudo{
+      width: 80%;
+  }
+  section div.box img{
+      width: 400px;
+  }
+  section div.box p{
+      color: #ffffff;
+      font-size: 100%;
+      line-height: 32px;
+      text-align: justify;
+      text-shadow: 3px 1px #4b2400;
+      margin-top: 30px;
+  }
+  @media screen and (max-width:1024px){
+      section div.box{
+          width: 100%;
+          padding: 2%;
+          background: rgba(0, 0, 0, 0.4);
+      }
+      section div.box div.conteudo{
+          width: 100%;
+          text-align: center;
+      }
+  }
+  /* fim do video */
+  /* começo da descrição */
+
+  /* fim da descrição */
+  /* começo do footer */
+  footer {
+    background-color: #ff6f17;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+.github-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.github-links a:hover {
+    text-decoration: underline;
+}
+/* fim d footer */
