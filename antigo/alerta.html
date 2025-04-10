@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pet Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style4.css">
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="assets/img/logo.png" alt="logo do site">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="conheca.html">Sobre</a></li>
+                <li><a href= "#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- começo do slider do começo da pagina -->
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <div class="slide s1">
+                <img class="img1" src="./assets/img/1.png" alt="img1">
+            </div>
+
+            <div class="slide">
+                <img class="img2" src="./assets/img/2.png" alt="img2">
+            </div>
+
+            <div class="slide">
+                <img class="img3" src="./assets/img/3.png" alt="img3">
+            </div>
+
+            <div class="slide">
+                <img class="img4" src="./assets/img/4.png" alt="img4">
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+    <!-- fim do slider  -->
+
+    <!-- Card dos serviços  -->
+    <div id="servicos" class="grid-container-card">
+        <div class="card">
+            <h2>Adotar</h2>
+            <p>Veja os animais que estão para adoção.</p>
+            <a href="index.html">
+                <button class="button1"> Visitar
+                </button>
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>Comprar</h2>
+            <p>Veja os produtos que temos na nossa loja.</p>
+            <a href="compras.html">
+                <button class="button1"> Visitar
+                </button>
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>Animais Perdidos</h2>
+            <p>Ajude a localizar animais perdidos.</p>
+            <a href="animaisperdidos.html">
+                <button class="button1"> Visitar
+                </button>
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>Lembretes</h2>
+            <p>Não esqueça.</p>
+            <a href="alerta.html">
+                <button class="button1"> Visitar
+                </button>
+            </a>
+        </div>
+    </div>
+    <!-- Fim do card dos serviços  -->
+
+   
+
+
+    <footer id="contato">
+        <div class="contact-info">
+            <p>Instagram: <a href="https://www.instagram.com/petfindersjc" target="_blank">@petfindersjc</a></p>
+            <p>Email: <a href="mailto:petfinderjrmagu@gmail.com">petfinderjrmagu@gmail.com</a></p>
+            <p>Telefone: (11) 1234-5678</p>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Todos os direitos reservados aos desenvolvedores</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js" async defer></script>
+</body>
+
+</html>
