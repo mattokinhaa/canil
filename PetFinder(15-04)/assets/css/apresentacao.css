@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,500;1,500&display=swap');
+* {padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;;
+    box-sizing: border-box;
+  }
+  body{
+      width: 100%;
+      min-height: 100vh;
+  }
+  /* começo do video */
+  section{
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      overflow-y: hidden;
+  }
+  section div.background-section{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 0;
+  }
+  section div.background-section video{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+  }
+  section div.box{
+      width: 50%;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.2), transparent);
+  }
+  section div.box div.conteudo{
+      width: 80%;
+  }
+  section div.box img{
+      width: 400px;
+  }
+  section div.box p{
+      color: #ffffff;
+      font-size: 100%;
+      line-height: 32px;
+      text-align: justify;
+      text-shadow: 3px 1px #4b2400;
+      margin-top: 30px;
+  }
+  @media screen and (max-width:1024px){
+      section div.box{
+          width: 100%;
+          padding: 2%;
+          background: rgba(0, 0, 0, 0.4);
+      }
+      section div.box div.conteudo{
+          width: 100%;
+          text-align: center;
+      }
+  }
+  /* fim do video */
+  /* começo da descrição */
+
+  /* fim da descrição */
+  /* começo do footer */
+  footer {
+    background-color: #ff6f17;
+    color: #fff;
+    padding: 6px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+.github-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.github-links a:hover {
+    text-decoration: underline;
+}
+/* fim d footer */
+
+
+/*css pros botões de login e nav do conheça.php */
+
+/* 1. Header fixo no topo, full-width */
+.top-nav {
+    position: absolute;   /* ou fixed, se quiser que fique sempre visível ao rolar */
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;  /* empurra o conteúdo para a direita */
+    z-index: 10;                 /* fica acima do vídeo de fundo */
+  }
+  
+  /* 2. Estilo base de botão */
+  .btn {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+  }
+  
+  /* 3. Botões laranja */
+  .btn-login,
+  .btn-signup {
+    background-color: #ff8c00; /* laranja escuro */
+    color: #ffffff;
+  }
+  
+  .btn-login:hover,
+  .btn-signup:hover {
+    background-color: #e67600;  /* laranja mais escuro no hover */
+  }
+  
+
+
+/*  css pros ícones e partes abaixo do vídeo  */
+
+/* Seção “sobre” com fundo laranja e texto branco */
+.sobre {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 8rem 6rem;
+    height: auto !important;
+  }
+  
+  .sobre h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  /* Container flexível para os 3 cards */
+  .sobre .features {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  /* Cada “card” de feature */
+  .sobre .feature {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Círculo branco com borda onde vai o ícone */
+  .sobre .feature-icon {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #ff6f17;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    background-color: rgba(255,255,255,0.1);
+  }
+  
+  .sobre .feature-icon img {
+    max-width: 60%;
+    max-height: 60%;
+  }
+  
+  /* Legenda do card */
+  .sobre .feature p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  
+  /* pra deixar responsivo  */
+  @media screen and (max-width: 768px) {
+    .sobre .features {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
