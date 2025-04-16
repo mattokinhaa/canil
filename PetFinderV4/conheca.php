@@ -9,14 +9,6 @@
     <title>Pagina inicial</title>
 </head>
 <body>
-
-    <header class="top-nav">
-        <nav>
-            <a href="./login/login.php" class="btn btn-login">Login</a>
-            <a href="./signup/signup.php" class="btn btn-signup">Novo por aqui?</a>
-        </nav>
-    </header>
-
     <section>
         <div class="background-section">
             <video src="assets/videos/fundo.mp4" autoplay loop muted></video>
